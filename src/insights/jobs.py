@@ -1,6 +1,5 @@
 from functools import lru_cache
 from typing import List, Dict
-import os
 import csv
 
 
@@ -19,10 +18,10 @@ def read(path: str) -> List[Dict]:
         List of rows as dicts
     """
     # https://stackoverflow.com/questions/7165749/open-file-in-a-relative-location-in-python
-    file_dir = os.path.dirname(os.path.realpath("__file__"))
-    file_name = os.path.join(file_dir, path)
+    # file_dir = os.path.dirname(os.path.realpath("__file__"))
+    # file_name = os.path.join(file_dir, path)
 
-    with open(file_name) as file:
+    with open(path) as file:
         jobs_reader = csv.reader(file)
         header, *data = jobs_reader
 
