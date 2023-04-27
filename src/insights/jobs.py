@@ -20,9 +20,8 @@ def read(path: str) -> List[Dict]:
     """
     # https://stackoverflow.com/questions/7165749/open-file-in-a-relative-location-in-python
     file_dir = os.path.dirname(os.path.realpath("__file__"))
-    print(file_dir)
     file_name = os.path.join(file_dir, path)
-    print(file_name)
+
     with open(file_name) as file:
         jobs_reader = csv.reader(file)
         header, *data = jobs_reader
