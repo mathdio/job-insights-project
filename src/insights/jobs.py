@@ -1,5 +1,7 @@
 from functools import lru_cache
 from typing import List, Dict
+import os
+import csv
 
 
 @lru_cache
@@ -16,7 +18,22 @@ def read(path: str) -> List[Dict]:
     list
         List of rows as dicts
     """
-    raise NotImplementedError
+    # https://stackoverflow.com/questions/7165749/open-file-in-a-relative-location-in-python
+    file_dir = os.path.dirname(os.path.realpath("__file__"))
+    print(file_dir)
+    file_name = os.path.join(file_dir, path)
+    print(file_name)
+    with open(file_name) as file:
+        jobs_reader = csv.reader(file)
+        header, *data = jobs_reader
+
+    jobs_list = []
+    for row in data:
+        job = {}
+        for index in range(0, len(header)):
+            job[header[index]] = row[index]
+        jobs_list.append(job)
+    return jobs_list
 
 
 def get_unique_job_types(path: str) -> List[str]:
