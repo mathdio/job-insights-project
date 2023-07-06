@@ -6,7 +6,7 @@
 A set of analysis solutions for real job data developed as a [Trybe](https://www.betrybe.com) Project
 
 ## 💻 About this project
-Some files in this application were provided by [Trybe](https://www.betrybe.com), as the mock files for tests, for example.
+Some files may have been provided by [Trybe](https://www.betrybe.com) to accelerate the application development start, as the mock files for tests, for example.
 
 
 ## 🏁 Getting started
