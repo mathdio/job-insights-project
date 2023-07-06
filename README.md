@@ -1,6 +1,6 @@
 > # :construction: This README is still under construction! :construction:
 >
-> Although this README has some solid guidance, more info are yet to be added. The "About this project" section is incomplete, for example.
+> Although this README has some solid guidance, more info is yet to be added. The "About this project" section is incomplete, for example.
 
 # 💼 Job Insights
 A set of analysis solutions for real job data developed as a [Trybe](https://www.betrybe.com) Project
