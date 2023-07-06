@@ -24,3 +24,17 @@ python3 -m pip install -r dev-requirements.txt
 ```
 
 ## 🧪 Testing
+To execute all tests, in virtual enviroment run:
+```
+python3 -m pytest
+```
+If some issue occurs, you can alternatively run `python3 -m pytest -s -vv`.
+
+To execute one specifict test file, you can run the command with the file path. Example:
+```
+python3 -m pytest tests/sorting/test_sorting.py
+```
+To execute one specific test function, you can run the command with the flag `-k` and the function. Example:
+```
+python3 -m pytest -k test_sort_by_criteria
+```
