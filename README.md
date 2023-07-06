@@ -1,6 +1,13 @@
-# :construction: README under construction! :construction:
+> # :construction: This README is still under construction! :construction:
+>
+> Although this README has some solid guidance, more info are yet to be added. The "About this project" section is incomplete, for example.
+
 # 💼 Job Insights
 A set of analysis solutions for real job data developed as a [Trybe](https://www.betrybe.com) Project
+
+## 💻 About this project
+Some files in this application were provided by [Trybe](https://www.betrybe.com), as the mock files for tests, for example.
+
 
 ## 🏁 Getting started
 ### 🐍 Installing Python 3
