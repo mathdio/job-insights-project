@@ -23,3 +23,4 @@ To install the dependencies in virtual enviroment, run:
 python3 -m pip install -r dev-requirements.txt
 ```
 
+## 🧪 Testing
