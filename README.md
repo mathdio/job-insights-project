@@ -3,10 +3,12 @@
 > Although this README has some solid guidance, more info is yet to be added. The "About this project" section is incomplete, for example.
 
 # 💼 Job Insights
-A set of analysis solutions for real job data developed as a [Trybe](https://www.betrybe.com) Project
+A set of analysis solutions for job real data, developed as a [Trybe](https://www.betrybe.com) Project
 
 ## 💻 About this project
-Some files have been provided by [Trybe](https://www.betrybe.com) to accelerate the application development start, as the mock files for tests, for example.
+This application has analysis implementations incorporated to a web job opportunity application developed in Flask. The implemented functions are focused in search and filter of jobs.
+
+Some files have been provided by [Trybe](https://www.betrybe.com) to accelerate the application development start (as the mock files for tests) or in order to be tested.
 
 ## 🛠️ Built with
 <a href="https://flask.palletsprojects.com/en/2.3.x/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" /></a>
