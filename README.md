@@ -1,7 +1,3 @@
-> # :construction: This README is still under construction! :construction:
->
-> Although this README has some solid guidance, more info is yet to be added. The "Getting started" section is incomplete.
-
 # 💼 Job Insights
 A set of analysis solutions for job real data, developed as a [Trybe](https://www.betrybe.com) Project
 
@@ -44,6 +40,12 @@ To install the dependencies in virtual enviroment, run:
 ```
 python3 -m pip install -r dev-requirements.txt
 ```
+### 🏃‍♀️ Running the application
+In virtual enviroment, run:
+```
+flask run
+```
+Now you can access the application front-end layer `http://localhost:5000/jobs` endpoint and use the solutions implemented.
 
 ## 🧪 Testing
 To execute all tests, in virtual enviroment run:
